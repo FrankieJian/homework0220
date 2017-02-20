@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         LinearLayoutManager manager = new LinearLayoutManager(this);
-        manager.setOrientation(LinearLayoutManager.HORIZONTAL);
+//        manager.setOrientation(LinearLayoutManager.HORIZONTAL);
 //        GridLayoutManager manager = new GridLayoutManager(this, 3);
 
 //        StaggeredGridLayoutManager manager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
